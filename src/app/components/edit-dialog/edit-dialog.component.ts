@@ -15,7 +15,4 @@ export class EditDialogComponent implements OnInit {
     public dialogRef: MatDialogRef<EditDialogComponent>,
     @Inject(MAT_DIALOG_DATA) public data: any
   ) { }
-
-  ngOnInit(): void {
-  }
 }

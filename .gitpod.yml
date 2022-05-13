@@ -1,0 +1,11 @@
+
+tasks:
+  - init: npm install && npm run build
+    command: npm run start
+
+
+
+vscode:
+  extensions:
+    - manuth.eslint-language-service
+    - esbenp.prettier-vscode
