@@ -14,7 +14,4 @@ export class DeleteDialogComponent implements OnInit {
     @Inject(MAT_DIALOG_DATA) public item: TodoItem
   ) { }
 
-  ngOnInit(): void {
-  }
-
 }
