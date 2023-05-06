@@ -104,5 +104,8 @@
       }
     }
   },
-  "defaultProject": "Todo-Frontend"
+  "defaultProject": "Todo-Frontend",
+  "cli": {
+    "analytics": false
+  }
 }
