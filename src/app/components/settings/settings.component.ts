@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { MatSnackBar } from '@angular/material/snack-bar';
+import { MatLegacySnackBar as MatSnackBar } from '@angular/material/legacy-snack-bar';
 import { AwsConfig } from 'src/app/interfaces/aws-config/aws-config';
 import { DataService } from 'src/app/services/data/data.service';
 

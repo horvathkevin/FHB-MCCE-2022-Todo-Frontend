@@ -1,8 +1,8 @@
 import { Component, OnInit, ViewChildren, QueryList} from '@angular/core';
 import { TodoItem } from 'src/app/interfaces/todo-item/todo-item';
 import { TodoService } from 'src/app/services/todo/todo.service';
-import {MatDialog} from '@angular/material/dialog';
-import { MatSnackBar } from '@angular/material/snack-bar';
+import {MatLegacyDialog as MatDialog} from '@angular/material/legacy-dialog';
+import { MatLegacySnackBar as MatSnackBar } from '@angular/material/legacy-snack-bar';
 import { TODOS } from 'src/app/services/mock/mock-todo-item';
 import { TodoItemComponent } from '../todo-item/todo-item.component';
 import { EditDialogComponent } from '../edit-dialog/edit-dialog.component';
